@@ -1,103 +1,171 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ResponAI - Asisten Klinik Cerdas 24/7</title>
-    <meta name="description" content="Ubah chat pasien jadi omzet. Balas otomatis dalam 2 detik. Tanpa admin begadang.">
+    <title>ResponAI - Automasi Chat Klinik & Bisnis 24/7</title>
+    <meta name="description" content="Tingkatkan konversi klinik Anda dengan asisten AI cerdas. Balas cepat, akurat, dan otomatis.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; }
-        .hero-pattern { background-color: #f0f9ff; background-image: radial-gradient(#bae6fd 1px, transparent 1px); background-size: 24px 24px; }
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .gradient-text { background: linear-gradient(90deg, #2563eb, #7c3aed); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     </style>
 </head>
-<body class="text-slate-800">
+<body class="bg-slate-50 text-slate-900">
 
-    <nav class="w-full py-4 px-6 flex justify-between items-center max-w-6xl mx-auto">
-        <div class="flex items-center gap-2">
-            <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">
-                <i class="fa-solid fa-bolt"></i>
+    <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-blue-200">
+                    <i class="fa-solid fa-robot text-xl"></i>
+                </div>
+                <span class="font-extrabold text-2xl tracking-tight">Respon<span class="text-blue-600">AI</span></span>
             </div>
-            <span class="font-bold text-xl tracking-tight">ResponAI</span>
+            <div class="hidden md:flex gap-8 font-semibold text-sm text-slate-600">
+                <a href="#fitur" class="hover:text-blue-600 transition">Fitur</a>
+                <a href="#cara-kerja" class="hover:text-blue-600 transition">Cara Kerja</a>
+                <a href="#harga" class="hover:text-blue-600 transition">Harga</a>
+                <a href="#tentang" class="hover:text-blue-600 transition">Tentang Kami</a>
+            </div>
+            <a href="https://wa.me/6281234567890" class="bg-blue-600 text-white px-6 py-2.5 rounded-full font-bold text-sm hover:bg-blue-700 transition shadow-md">Demo Gratis</a>
         </div>
-        <a href="https://wa.me/6281330728814?text=Halo%20ResponAI,%20saya%20mau%20coba%20demo%20gratisnya" 
-           class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-medium transition text-sm">
-           Coba Demo Gratis
-        </a>
     </nav>
 
-    <header class="hero-pattern pt-20 pb-24 px-6 text-center">
-        <div class="max-w-4xl mx-auto">
-            <div class="inline-block bg-blue-100 text-blue-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
-                🚀 Solusi No. #1 Buat Klinik Slow Respon
-            </div>
-            <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
-                Admin Klinik Tidur,<br>
-                <span class="text-blue-600">Omzet Tetap Masuk.</span>
-            </h1>
-            <p class="text-lg text-slate-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-                Jangan biarkan pasien kabur ke kompetitor cuma gara-gara admin telat balas 5 menit. 
-                ResponAI menjawab pertanyaan harga, jadwal, & reservasi dalam <strong>2 detik.</strong>
-            </p>
+    <header class="pt-32 pb-20 px-6">
+        <div class="max-w-5xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">Admin Klinik Tidur,<br><span class="gradient-text">Omzet Tetap Masuk.</span></h1>
+            <p class="text-lg text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">Jangan biarkan pasien kabur karena telat balas. ResponAI menjawab pertanyaan harga, jadwal, & reservasi dalam 2 detik menggunakan teknologi AI tercanggih.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="https://wa.me/6281330728814?text=Halo%20ResponAI,%20saya%20tertarik%20konsultasi" 
-                   class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-blue-500/30 transition hover:-translate-y-1">
-                   <i class="fa-brands fa-whatsapp mr-2"></i> Konsultasi Gratis
-                </a>
-                <a href="#demo" class="bg-white text-slate-700 border border-slate-200 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 transition">
-                    Lihat Cara Kerja
-                </a>
+                <a href="https://wa.me/6281234567890" class="bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-slate-800 transition shadow-xl">Mulai Sekarang</a>
+                <a href="#cara-kerja" class="bg-white text-slate-700 border border-slate-200 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-slate-50 transition">Lihat Cara Kerja</a>
             </div>
-            <p class="mt-6 text-sm text-slate-500">
-                <i class="fa-solid fa-check text-green-500 mr-1"></i> Gratis Setup Awal
-                <span class="mx-2">•</span>
-                <i class="fa-solid fa-check text-green-500 mr-1"></i> Tanpa Coding
-            </p>
         </div>
     </header>
 
-    <section class="py-20 bg-white px-6">
-        <div class="max-w-5xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-12">Kenapa Klinik Anda Butuh ResponAI?</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-                    <div class="w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center text-xl mb-4 mx-auto">
-                        <i class="fa-regular fa-clock"></i>
+    <section id="fitur" class="py-24 bg-white px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Fitur Unggulan ResponAI</h2>
+                <p class="text-slate-500">Teknologi yang dirancang khusus untuk efisiensi bisnis Anda.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-blue-200 transition group">
+                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-brain"></i>
                     </div>
-                    <h3 class="font-bold text-lg mb-2">Pasien Gak Sabaran</h3>
-                    <p class="text-slate-600 text-sm">Riset membuktikan: Pasien pindah klinik kalau chat tidak dibalas dalam 10 menit.</p>
+                    <h3 class="font-bold text-xl mb-3">Natural Language (NLP)</h3>
+                    <p class="text-slate-600 leading-relaxed">AI kami mengerti konteks percakapan manusia, bukan sekadar kata kunci kaku.</p>
                 </div>
-                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-                    <div class="w-12 h-12 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center text-xl mb-4 mx-auto">
-                        <i class="fa-solid fa-user-xmark"></i>
+                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-blue-200 transition group">
+                    <div class="w-14 h-14 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-bolt"></i>
                     </div>
-                    <h3 class="font-bold text-lg mb-2">Admin Overload</h3>
-                    <p class="text-slate-600 text-sm">Admin sibuk urus pasien offline, chat WA numpuk ratusan. Banyak yang terlewat.</p>
+                    <h3 class="font-bold text-xl mb-3">Respon Instan 2 Detik</h3>
+                    <p class="text-slate-600 leading-relaxed">Menghilangkan waktu tunggu pasien. Balasan cepat meningkatkan kepercayaan hingga 80%.</p>
                 </div>
-                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-xl mb-4 mx-auto">
-                        <i class="fa-solid fa-sack-dollar"></i>
+                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-blue-200 transition group">
+                    <div class="w-14 h-14 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-green-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-chart-line"></i>
                     </div>
-                    <h3 class="font-bold text-lg mb-2">Kehilangan Omzet</h3>
-                    <p class="text-slate-600 text-sm">Setiap chat yang telat dibalas adalah potensi uang jutaan yang hilang.</p>
+                    <h3 class="font-bold text-xl mb-3">Analitik Konversi</h3>
+                    <p class="text-slate-600 leading-relaxed">Pantau berapa banyak chat yang berhasil berubah menjadi janji temu secara real-time.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="bg-slate-900 text-white py-12 px-6">
-        <div class="max-w-6xl mx-auto text-center">
-            <h3 class="text-2xl font-bold mb-6">Siap Mengotomatisasi Klinik Anda?</h3>
-            <p class="text-slate-400 mb-8">Harga promo khusus 10 pendaftar pertama bulan ini.</p>
-            <a href="https://wa.me/6281330728814?text=Halo%20ResponAI,%20info%20promo%20dong" 
-               class="inline-block bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-8 rounded-lg transition">
-               Hubungi Kami via WhatsApp
-            </a>
-            <div class="mt-12 pt-8 border-t border-slate-800 text-sm text-slate-500">
-                &copy; 2026 ResponAI. All rights reserved. Semarang, Indonesia.
+    <section id="harga" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Investasi Bisnis Anda</h2>
+                <p class="text-slate-500 text-lg">Pilih paket yang sesuai dengan volume chat klinik Anda.</p>
             </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col">
+                    <h3 class="font-bold text-lg mb-2">Starter</h3>
+                    <div class="text-4xl font-extrabold mb-6">Rp 299rb<span class="text-sm text-slate-400 font-normal">/bulan</span></div>
+                    <ul class="space-y-4 mb-8 flex-grow">
+                        <li class="text-sm flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Max 500 Chat/Bulan</li>
+                        <li class="text-sm flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Training 1 Produk/Layanan</li>
+                        <li class="text-sm flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Standar AI Response</li>
+                    </ul>
+                    <a href="https://wa.me/6281234567890" class="w-full py-3 rounded-xl border border-blue-600 text-blue-600 font-bold text-center hover:bg-blue-50 transition">Pilih Paket</a>
+                </div>
+                <div class="bg-slate-900 p-8 rounded-3xl border border-slate-800 shadow-2xl flex flex-col transform scale-105 z-10">
+                    <div class="bg-blue-600 text-white text-[10px] font-bold px-3 py-1 rounded-full self-start mb-4 uppercase">Paling Populer</div>
+                    <h3 class="font-bold text-lg mb-2 text-white">Business Pro</h3>
+                    <div class="text-4xl font-extrabold mb-6 text-white">Rp 749rb<span class="text-sm text-slate-500 font-normal">/bulan</span></div>
+                    <ul class="space-y-4 mb-8 flex-grow text-slate-300">
+                        <li class="text-sm flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> Chat Sepuasnya (Unlimited)</li>
+                        <li class="text-sm flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> AI Training Seluruh Layanan</li>
+                        <li class="text-sm flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> Integrasi Jadwal Dokter</li>
+                        <li class="text-sm flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> Support Prioritas 24/7</li>
+                    </ul>
+                    <a href="https://wa.me/6281234567890" class="w-full py-3 rounded-xl bg-blue-600 text-white font-bold text-center hover:bg-blue-700 transition shadow-lg shadow-blue-500/20">Pilih Paket</a>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col">
+                    <h3 class="font-bold text-lg mb-2">Custom</h3>
+                    <div class="text-4xl font-extrabold mb-6 text-slate-400">Hubungi Kami</div>
+                    <ul class="space-y-4 mb-8 flex-grow">
+                        <li class="text-sm flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Multi-Account WhatsApp</li>
+                        <li class="text-sm flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> API Integrasi Custom CRM</li>
+                        <li class="text-sm flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Server Dedicated</li>
+                    </ul>
+                    <a href="https://wa.me/6281234567890" class="w-full py-3 rounded-xl border border-slate-900 text-slate-900 font-bold text-center hover:bg-slate-50 transition">Konsultasi Khusus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="py-24 bg-white px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Dibuat di Semarang untuk Indonesia</h2>
+            <p class="text-lg text-slate-600 leading-relaxed mb-10">
+                ResponAI dikembangkan oleh tim <strong>Informatika Universitas Diponegoro</strong>. Kami melihat banyak bisnis lokal kehilangan potensi omzet karena keterbatasan admin manusia. Misi kami sederhana: Membawa teknologi AI kelas dunia ke genggaman pemilik bisnis lokal agar pelayanan tetap prima tanpa biaya mahal.
+            </p>
+            <div class="inline-flex items-center gap-4 p-4 bg-slate-50 rounded-2xl border border-slate-100">
+                <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold italic">UNDIP</div>
+                <div class="text-left">
+                    <div class="font-bold text-sm text-slate-900 text-left">ResponAI x Undip</div>
+                    <div class="text-xs text-slate-500">Teknologi Terverifikasi Mahasiswa Informatika</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t border-slate-100 pt-20 pb-10 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-12 mb-16">
+            <div class="col-span-2">
+                <div class="flex items-center gap-2 mb-6">
+                    <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white"><i class="fa-solid fa-robot"></i></div>
+                    <span class="font-bold text-xl tracking-tight text-slate-900">ResponAI</span>
+                </div>
+                <p class="text-slate-500 max-w-sm mb-6">Solusi automasi chat berbasis AI untuk meningkatkan efisiensi dan pendapatan bisnis Anda.</p>
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 bg-slate-100 text-slate-500 rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="w-10 h-10 bg-slate-100 text-slate-500 rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6">Navigasi</h4>
+                <ul class="space-y-4 text-sm text-slate-500">
+                    <li><a href="#fitur" class="hover:text-blue-600 transition">Fitur Utama</a></li>
+                    <li><a href="#harga" class="hover:text-blue-600 transition">Paket Harga</a></li>
+                    <li><a href="#tentang" class="hover:text-blue-600 transition">Tentang Kami</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6">Hubungi Kami</h4>
+                <ul class="space-y-4 text-sm text-slate-500">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-envelope text-blue-600"></i> halo@responai.id</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-location-dot text-blue-600"></i> Semarang, Jawa Tengah</li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto text-center border-t border-slate-50 pt-10">
+            <p class="text-xs text-slate-400">&copy; 2026 ResponAI. Build with Passion by Informatics Student.</p>
         </div>
     </footer>
 
